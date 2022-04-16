@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 80px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(170, 17, 76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.left-header li {
+    display: flex;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.right-header li {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 32px;
+}
+
+.awesome {
+    background-color: black;
+    height: 534px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.desc-text-big {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.desc-text-small {
+    color: white;
+}
+
+.desc-button {
+    background-color: rgb(170, 17, 76);
+    width: fit-content;
+    padding: 8px 24px;
+    color: white;
+}
+
+.desc-image {
+    background-color: rgb(170, 17, 76);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: auto;
+    padding: 32px;
+}
+
+.title {
+    text-align: center;
+    padding: 32px;
+    font-size: 36px;
+}
+
+.item p {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 17, 76);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 16px;
+}
+
+.item {
+    width: 200px;
+}
+
+.qoute {
+    background-color: rgb(37, 37, 37);
+    height: 194;
+    padding: 32px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: white;
+    padding: 16px 100px;
+    justify-content: center;
+}
+
+.quote-name {
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up {
+    height: 300px;
+    margin: 48px auto;
+    display: flex;
+    background-color: rgb(170, 17, 76);
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+}
+
+.sign-text-bold {}
+
+.sign-text {}
+
+.sign-item-button {}
+
+.footer {
+    height: 50px;
+    background-color: rgb(170, 17, 76);
+    text-align: center;
+    padding: 8px;
+}
+
+.foot-text {}
