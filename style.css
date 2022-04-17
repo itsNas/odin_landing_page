@@ -1,31 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* body*/
+
 body {
     height: 100vh;
-    margin: 0;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
 }
 
+/*header*/
+
 .header {
     height: 80px;
+    padding: 10px;
     background-color: rgb(37, 37, 37);
-    color: rgb(170, 17, 76);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 32px;
-}
-
-.left-header li {
-    display: flex;
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.right-header li {
-    display: flex;
 }
 
 ul {
@@ -36,11 +31,35 @@ ul {
     gap: 32px;
 }
 
+.left-header {
+    font-size: 48px;
+    font-weight: 900px;
+    color: rgb(170, 17, 76);
+    margin: 0;
+}
+
+.right-header {
+    color: white;
+}
+
+.right-header :hover {
+    font-weight: 900;
+    color: rgb(170, 17, 76);
+}
+
+.left-header img {
+    height: 55px;
+    width: 55px;
+}
+
+/*awesome*/
+
 .awesome {
     background-color: black;
-    height: 534px;
+    height: auto;
     padding: 0 32px;
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
     gap: 32px;
@@ -48,36 +67,39 @@ ul {
 
 .desc {
     display: flex;
+    color: white;
     flex-direction: column;
     justify-content: space-between;
     gap: 16px;
 }
 
 .desc-text-big {
-    color: white;
     font-size: 48px;
     font-weight: 900;
-}
-
-.desc-text-small {
-    color: white;
 }
 
 .desc-button {
     background-color: rgb(170, 17, 76);
     width: fit-content;
     padding: 8px 24px;
-    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
 }
 
-.desc-image {
-    background-color: rgb(170, 17, 76);
+.desc-image img {
     height: 300px;
     width: 300px;
+    margin: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.button :hover {
+    font-weight: 900;
+}
+
+/*content*/
 
 .content {
     height: auto;
@@ -86,13 +108,14 @@ ul {
 
 .title {
     text-align: center;
-    padding: 32px;
+    padding: 32px 0;
     font-size: 36px;
 }
 
-.item p {
+.item img {
     width: 200px;
     height: 200px;
+    border-radius: 25px;
     background-color: rgb(170, 17, 76);
     display: flex;
     flex-direction: column;
@@ -118,6 +141,8 @@ ul {
     padding: 32px;
 }
 
+/*quote*/
+
 .quote-text {
     font-size: 36px;
     color: white;
@@ -127,32 +152,57 @@ ul {
 
 .quote-name {
     color: white;
+    font-size: 24px;
     font-weight: 700;
     display: flex;
     justify-content: flex-end;
 }
 
+/*sign up*/
+
 .sign-up {
-    height: 300px;
-    margin: 48px auto;
     display: flex;
-    background-color: rgb(170, 17, 76);
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    gap: 64px;
+    gap: 100px;
+    margin: 30px 300px;
+    padding: 16px;
+    background-color: rgb(170, 17, 76);
+    color: white;
+    font-size: 16px;
 }
 
-.sign-text-bold {}
+.sign-text-bold {
+    font-size: 24px;
+    font-weight: bold;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+}
 
-.sign-text {}
+.sign-text {
+    flex-shrink: 0;
+}
 
-.sign-item-button {}
+.sign-item-button {
+    background-color: rgb(170, 17, 76);
+    border: 2px solid white;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 4px 32px;
+}
+
+.sign-item-button :hover {
+    font-weight: 900;
+}
+
+/*footer*/
 
 .footer {
     height: 50px;
+    color: white;
     background-color: rgb(170, 17, 76);
     text-align: center;
     padding: 8px;
+    margin-top: auto;
 }
-
-.foot-text {}
