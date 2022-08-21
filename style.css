@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 /* body*/
 
@@ -137,8 +137,11 @@ ul {
 
 .qoute {
     background-color: rgb(37, 37, 37);
-    height: 194;
+    height: auto;
     padding: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 /*quote*/
